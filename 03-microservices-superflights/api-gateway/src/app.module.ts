@@ -3,8 +3,8 @@ import { ConfigModule } from '@nestjs/config';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { UserModule } from './user/user.module';
-import { FlightModule } from './flight/flight.module';
 import { PassengerModule } from './passenger/passenger.module';
+import { FlightModule } from './flight/flight.module';
 
 @Module({
   imports: [
@@ -13,8 +13,8 @@ import { PassengerModule } from './passenger/passenger.module';
       isGlobal: true,
     }),
     UserModule,
-    FlightModule,
-    PassengerModule
+    PassengerModule,
+    FlightModule
   ],
   controllers: [AppController],
   providers: [AppService],
