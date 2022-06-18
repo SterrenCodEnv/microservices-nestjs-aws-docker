@@ -64,66 +64,130 @@
 ## Estructura del repositorio
 
 ```text
-01-api-tasks/
-    └── src/
-        ├── common/
-        |    ├── filters/
-        |    └── interceptors/
-        └── task/
-             └── dto/
+├── 01-api-tasks/
+|      └── src/
+|           ├── common/
+|           |     ├── filters/
+|           |     └── interceptors/
+|           └── task/
+|                 └── dto/
+├── 02-api-superflights
+|      └── src/
+|           ├── auth/
+|           |     ├── guards/
+|           |     └── strategies/
+|           ├── common/
+|           |     ├── filters/
+|           |     ├── interceptors/
+|           |     ├── interfaces/
+|           |     ├── models/
+|           |     └── interceptors/
+|           ├── flight/
+|           |     ├── dto/
+|           |     └── schema/
+|           ├── passenger/
+|           |     ├── dto/
+|           |     └── schema/
+|           ├── user/
+|           |     ├── dto/
+|           |     └── schema/
+|           └── task/
+|                 └── dto/
+└── 03-microservices-superflights
+            ├── api-gateway/
+            |     └── src/
+            |          ├── auth/
+            |          |    ├── guards/
+            |          |    └── strategies/
+            |          ├── common/
+            |          |    ├── filters/
+            |          |    ├── interceptors/
+            |          |    ├── interfaces/
+            |          |    └── proxy/
+            |          ├── flight/
+            |          |    └── dto/
+            |          ├── passenger/
+            |          |    └── dto/
+            |          └── user/
+            |               └── dto/
+            ├── microservice-flights
+            |     └── src/
+            |          ├── common/
+            |          |    ├── interfaces/
+            |          |    ├── models/
+            |          |    └── utils/
+            |          └── flight/
+            |               ├── dto/
+            |               └── schema/
+            ├── microservice-passengers
+            |     └── src/
+            |          ├── common/
+            |          |    ├── interfaces/
+            |          |    └── models/
+            |          └── passenger/
+            |               ├── dto/
+            |               └── schema/
+            └── microservice-users
+                  └── src/
+                       ├── common/
+                       |    ├── interfaces/
+                       |    └── models/
+                       └── users/
+                            ├── dto/
+                            └── schema/
 ```
 
 ## Progreso del curso
 
-- [X] Sección 1: Configuración de Entorno.
+- [x] Sección 1: Configuración de Entorno.
 
-- [X] Sección 2: Primera Aplicación con NestJs.
+- [x] Sección 2: Primera Aplicación con NestJs.
 
-- [X] Sección 3: Decoradores de Controlador.
+- [x] Sección 3: Decoradores de Controlador.
 
-- [X] Sección 4: REST API Tareas.
+- [x] Sección 4: REST API Tareas.
 
-- [X] Sección 5: Validación de Entrada.
+- [x] Sección 5: Validación de Entrada.
 
-- [X] Sección 6: Excepciones.
+- [x] Sección 6: Excepciones.
 
-- [X] Sección 7: Interceptores.
+- [x] Sección 7: Interceptores.
 
-- [X] Sección 8: Aplicación Monolítica.
+- [x] Sección 8: Aplicación Monolítica.
 
-- [ ] Sección 9: Configuración de Base de Datos.
+- [x] Sección 9: Configuración de Base de Datos.
 
-- [ ] Sección 10: Módulo de Usuarios.
+- [x] Sección 10: Módulo de Usuarios.
 
-- [ ] Sección 11: Módulo de Pasajeros.
+- [x] Sección 11: Módulo de Pasajeros.
 
-- [ ] Sección 12: Módulo de Vuelos.
+- [x] Sección 12: Módulo de Vuelos.
 
-- [ ] Sección 13: Documentación con OpenAPI (Swagger).
+- [x] Sección 13: Documentación con OpenAPI (Swagger).
 
-- [ ] Sección 14: Protección de Rutas JWT - Guards - Strategies.
+- [x] Sección 14: Protección de Rutas JWT - Guards - Strategies.
 
-- [ ] Sección 15: Aplicación de Microservicios.
+- [x] Sección 15: Aplicación de Microservicios.
 
-- [ ] Sección 16: Módulo de Usuarios.
+- [x] Sección 16: Módulo de Usuarios.
 
-- [ ] Sección 17: Módulo de Pasajeros.
+- [x] Sección 17: Módulo de Pasajeros.
 
-- [ ] Sección 18: Módulo de Vuelos.
+- [x] Sección 18: Módulo de Vuelos.
 
-- [ ] Sección 19: Documentación con OpenAPI (Swagger).
+- [x] Sección 19: Documentación con OpenAPI (Swagger).
 
-- [ ] Sección 20: Microservicio de Usuarios.
+- [x] Sección 20: Microservicio de Usuarios.
 
-- [ ] Sección 21: Microservicio de Pasajeros.
+- [x] Sección 21: Microservicio de Pasajeros.
 
-- [ ] Sección 22: Microservicio de Vuelos.
+- [x] Sección 22: Microservicio de Vuelos.
 
-- [ ] Sección 23: Módulo Auth.
+- [x] Sección 23: Módulo Auth.
 
-- [ ] Sección 24: Microservicios en Docker.
+- [x] Sección 24: Microservicios en Docker.
 
-- [ ] Sección 25: Despliegue en AWS con Docker.
+- [x] Sección 25: Despliegue en AWS con Docker.
 
 ## Descarga, instalación e inicialización
 
