@@ -33,8 +33,8 @@ export class UserService {
     return await this.model.findById(id);
   }
 
-  async findByUsername(username: string): Promise<IUser> {
-    return await this.model.findOne({ username });
+  async findByEmail(email: string): Promise<IUser> {
+    return await this.model.findOne({ email });
   }
 
   async search(query: any): Promise<IUser[]> {
